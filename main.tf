@@ -1,6 +1,6 @@
 # Configure the AWS provider
 provider "aws" {
-  region = "ap-southest-1"
+  region = "ap-southeast-1"
 }
 
 # Create an EC2 instance
