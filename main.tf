@@ -1,10 +1,10 @@
 # Configure the AWS provider
 provider "aws" {
-  region = "eu-west-1"
+  region = "ap-southest-1"
 }
 
 # Create an EC2 instance
 resource "aws_instance" "example" {
-  ami           = "ami-785db401"
+  ami           = "ami-01938df366ac2d954"
   instance_type = "t2.micro"
 }
